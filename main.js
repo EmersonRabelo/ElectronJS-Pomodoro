@@ -14,6 +14,7 @@ app.on('ready', () => {
         alwaysOnTop: true,
         resizable: false,
         autoHideMenuBar: true,
+        transparent: true,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
