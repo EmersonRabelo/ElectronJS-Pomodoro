@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="app">
+        <section class="menu">
+            <div class="drag-region">
+                <img style="opacity: .5;" src="./resources/icons/drag_handle_24dp.svg" alt="">
+            </div>
+            <button class="btn-close" id="close-app"></button>
+        </section>
+        <section class="clock">
+            <div id="timer">15:15</div>
+        </section>
+        <section class="control">
+            <button class="button-icon" id="play">
+                <img id="play_icon" src="./resources/icons/play_arrow_24dp.svg" alt="">
+            </button>
+            <button class="button-icon" id="stop-resume">
+                <img id='stop-resume_icon' src="./resources/icons/pause_24dp.svg" alt="">
+            </button>
+            <button class="button-icon" id="settings">
+                <img id='settings_icon' src="./resources/icons/settings_24dp.svg" alt="">
+            </button>
+        </section>
+    </main>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
